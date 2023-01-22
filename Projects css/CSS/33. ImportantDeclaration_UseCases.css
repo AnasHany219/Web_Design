@@ -1,0 +1,8 @@
+/* 
+The !important declaration
+*/
+
+.one {
+    /* Sets the background color of an element. */
+    background-color: #EEE !important;
+}

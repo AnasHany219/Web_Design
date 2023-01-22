@@ -1,0 +1,14 @@
+/* 
+Caret Color
+Pointer Events
+*/
+a {
+    /* Controls the color of the text insertion indicator */
+    caret-color: blueviolet;
+    /* Specifies under what circumstances a given element can be the target element for a pointer event. */
+    pointer-events: none;
+}
+
+a:hover {
+    color: red;
+}

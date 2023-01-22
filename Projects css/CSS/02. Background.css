@@ -1,0 +1,23 @@
+/* Sets the background color of an element. */
+div {
+    /* Color name*/
+    background-color: violet;
+    /* Red Green Blue - Alpha Channal*/
+    background-color: rgb(0 0 0 / 50%);
+    /* Hex Code */
+    background-color: #66cfff;
+    /* Sets the background image(s) of an element. */
+    background-image: url(../images/1.jpg);
+    /* Specifies how background images are tiled after they have been sized and positioned. */
+    background-repeat: no-repeat;
+    /* Specifies whether the background images are fixed with regard to the viewport ('fixed') or scroll along with the element ('scroll') or its contents ('local'). */
+    background-attachment: fixed;
+    /* Specifies the initial position of the background image(s) (after any resizing) within their corresponding background positioning area. */
+    background-position: center top;
+    background-position: 20px 50px;
+    /* Specifies the size of the background images. */
+    background-size: cover;
+    background-size: 1000px;
+    background-size: 50% 50%;
+
+}

@@ -1,0 +1,21 @@
+/* 
+Filters
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    transition: 0.3s;
+    /* Processes an element's rendering before it is displayed in the document, by applying one or more filter effects. */
+    filter: grayscale(100%);
+    filter: blur(4px);
+    filter: invert(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    filter: blur(0px);
+    filter: invert(0%);
+}

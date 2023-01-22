@@ -1,0 +1,106 @@
+/* 
+Flexible Box
+For Parent
+    - dispaly: flex                 => To start Flexible Box
+    - flex-direction: row           => default value
+    - flex-wrap: nowrap             => default value
+    - flex-flow:                    => [Flex Direction] + [Flex Wrap]
+    - justfu content: flex start    => default value
+    - align-items: stretch          => default value
+    - align-content: stretch        => default value
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    background-color: #EEE;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    /* In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element. */
+    display: flex;
+    /* Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis. */
+    /* 
+    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: row; 
+    */
+    /* Controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in. */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    /* Specifies how flexbox items are placed in the flexbox. */
+    flex-flow: row wrap;
+    /* Aligns flex items along the main axis of the current line of the flex container. */
+    /* 
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; 
+    */
+    /* Aligns flex items along the cross axis of the current line of the flex container. */
+    align-items: stretch;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+
+    /* Aligns a flex container's lines within the flex container when there is extra space in the cross-axis */
+    align-content: space-between;
+    align-content: space-around;
+    align-content: flex-end;
+    align-content: flex-start;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: calc(94% / 3);
+    text-align: center;
+    padding: 20px;
+}
+
+.float {
+    overflow: hidden;
+    background-color: #EEE;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div {
+    background-color: #f00;
+    color: white;
+    float: left;
+    width: calc(94% / 3);
+    text-align: center;
+    padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* .two {
+    margin-left: 1%;
+    margin-right: 1%;
+} */
+
+/* .flex one,
+.float one {
+    height: 80px;
+} */
+
+/* .flex two,
+.float two {
+    height: 120px;
+} */
+
+/* .center {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

@@ -1,0 +1,37 @@
+/* 
+Block
+    - Take full width if no width
+    - Add line Brack
+    - Respect padding, margin, width, and height
+*/
+div {
+    background-color: #DDD;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*
+Inline
+    - Do not line brack
+    - Do width, and height
+    - Respect padding, and margin just left and right
+*/
+.a {
+    background-color: #DDD;
+    padding: 30px;
+    margin: 10px;
+    /* display: block; */
+}
+
+/*
+Inline-Block
+    - Allow elements before and after.
+    - Respect padding, margin, width, and height
+
+*/
+.b {
+    background-color: #DDD;
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+}

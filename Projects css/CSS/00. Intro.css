@@ -1,0 +1,27 @@
+/* 
+--------Declare--------
+Selector{
+    Property1: value;
+    Property2: value;
+}
+*/
+/* attribute  */
+p {
+    color: aqua;
+    font-size: 40px;
+    background: black;
+}
+
+/* Class */
+.p {
+    color: rgb(48, 34, 177);
+    font-size: 30px;
+    background: black;
+}
+
+/* ID */
+#p {
+    color: rgb(65, 6, 77);
+    font-size: 20px;
+    background: black;
+}

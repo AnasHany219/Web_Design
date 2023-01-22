@@ -1,0 +1,68 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.page {
+    background-color: #EEE;
+    width: 900px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;
+}
+
+.pic {
+    width: 450px;
+    height: 500px;
+}
+
+.pico {
+    width: 400;
+    height: 300px;
+    margin: 5px 5px;
+    border-radius: 20px;
+}
+
+.pictw,
+.pictr,
+.picf {
+    display: inline-block;
+    width: calc(380px /3);
+    height: 150px;
+    margin: 5px 5px;
+    border-radius: 20px;
+}
+
+.details {
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+}
+
+.buy {
+    display: flex;
+}
+
+.now {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.later {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}

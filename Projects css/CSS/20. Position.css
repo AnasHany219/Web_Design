@@ -1,0 +1,47 @@
+/* 
+Position
+    - Static    => Default
+    - Relative
+    - Absolute
+    - Fixed
+    - Sticky
+*/
+div {
+    color: white;
+    /* width: 100px; */
+    padding: 10px;
+}
+
+.one {
+    background-color: red;
+    /* The position CSS property sets how an element is positioned in a document. */
+    position: relative;
+    position: absolute;
+    left: 20px;
+}
+
+.two {
+    background-color: green;
+}
+
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+}
+
+.one1 {
+    background-color: red;
+    /* The position CSS property sets how an element is positioned in a document. */
+    position: relative;
+    position: absolute;
+    /* position: fixed; */
+}
+
+.scroll {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}

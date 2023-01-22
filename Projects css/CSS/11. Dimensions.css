@@ -1,0 +1,18 @@
+div {
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    /* Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes. */
+    width: 400px;
+    /* Allows authors to constrain content width to a certain range. */
+    min-width: 400px;
+    /* Allows authors to constrain content width to a certain range. */
+    max-width: 500px;
+
+    /* Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.     */
+    height: 400x;
+    /* Allows authors to constrain content height to a certain range. */
+    min-height: 40px;
+    /* Allows authors to constrain content height to a certain range. */
+    max-height: 50px;
+}

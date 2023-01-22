@@ -1,0 +1,12 @@
+button {
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    /* Allows control over cursor appearance in an element */
+    cursor: pointer;
+}
+
+p {
+    cursor: grab;
+}

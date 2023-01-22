@@ -1,0 +1,30 @@
+/* 
+The Box Model
+Box Sizing
+*/
+* {
+    /* Box Model addition in CSS3. */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* Specifies the behavior of the 'width' and 'height' properties. */
+    /* (Edge 12, Firefox 29, Safari 5, Chrome 10, IE 8, Opera 7) */
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DDD;
+}
+
+.one {
+    background-color: #EEE;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px red solid;
+    /* Specifies the behavior of the 'width' and 'height' properties. */
+    box-sizing: border-box;
+}

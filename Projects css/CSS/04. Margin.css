@@ -1,0 +1,16 @@
+div {
+    background-color: #ddd;
+    /* The value may not be negative. */
+    padding: 10px;
+    /* Shorthand property to set values for the thickness of the margin area. */
+    /* Negative values for margin properties are allowed, but there may be implementation-specific limits. */
+    /* margin: 10px; */
+
+    /* width: 80%; */
+    /* margin-left: 10%; */
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}

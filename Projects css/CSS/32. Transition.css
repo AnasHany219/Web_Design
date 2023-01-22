@@ -1,0 +1,43 @@
+/* 
+Transition
+    - Duration
+    - Property
+    - Delay
+    - Timing Function
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.one {
+    background-color: #EEE;
+    width: 300px;
+    height: 100px;
+    /* Specifies how long the transition from the old value to the new value should take. */
+    transition-duration: 1s;
+    /* Defines when the transition will start. It allows a transition to begin execution some period of time from when it is applied. */
+    transition-delay: 0.2s;
+    /* Specifies the name of the CSS property to which the transition is applied. */
+    transition-property: margin-left, margin-top;
+    /* Describes how the intermediate values used during a transition will be calculated. */
+    transition-timing-function: ease;
+    /*  
+        Ease        => slow fast slow
+        linaer      => same same same
+        ease-in     => slow normal normal
+        ease-out    => normal normal slow
+        ease-in-out => slow normal slow
+    */
+    /* A two-dimensional transformation is applied to an element through the 'transform' property. This property contains a list of transform functions similar to those allowed by SVG. */
+    transform: margin-left, margin-top 1s 0.2s ease;
+}
+
+.one:hover {
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 280px;
+}

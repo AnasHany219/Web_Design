@@ -1,0 +1,9 @@
+.one {
+    background-color: red;
+    /* Opacity of an element's text, where 1 is opaque and 0 is entirely transparent. */
+    opacity: 0.2;
+}
+
+.two {
+    background-color: rgb(255 0 0 / 0.2);
+}

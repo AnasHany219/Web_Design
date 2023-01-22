@@ -1,0 +1,11 @@
+div {
+    background-color: #DDD;
+    width: 300px;
+    padding: 10px;
+    border-left: 10px solid red;
+    /* Style of the outline. Syntax: auto | <'border-style' >*/
+    outline-style: dashed;
+    /* The style of the border around edges of an element. Syntax: <line-style> {1, 4} */
+    border-style: double dotted solid groove;
+    /* Do not use outline, use border */
+}

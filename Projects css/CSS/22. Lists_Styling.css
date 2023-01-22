@@ -1,0 +1,14 @@
+li {
+    background-color: #EEE;
+    margin-bottom: 10px;
+}
+
+ul {
+    /* Sets the image that will be used as the list item marker. */
+    /* list-style-image: url("/images/4.jpg"); */
+    /* Specifies the position of the '::marker' pseudo-element's box in the list item. */
+    list-style-position: outside;
+    list-style-position: inside;
+    /* Shorthand for setting 'list-style-type', 'list-style-position' and 'list-style-image' */
+    list-style: georgian inside;
+}

@@ -1,0 +1,23 @@
+/* 
+Clac
+*/
+body {
+    margin: 0;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc((100% - 90px)/5);
+    margin-left: 15px;
+}
+
+/* 
+Content Width is: 100%
+6 spaces 15px * 6 => 90px From Content width
+100% - 90px => Avialable space
+5 elements => The width is: (100% - 90px) / 5
+*/

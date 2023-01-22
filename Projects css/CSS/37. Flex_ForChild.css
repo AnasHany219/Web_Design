@@ -1,0 +1,46 @@
+/* 
+Flexible Box
+For Child
+    - flex-grow: 0          => default value
+    - flex-shrink: 1        => default value
+    - order: 0              => default value
+    - flex-basis: auto      => default value
+    - flex: [Flex Grow] + [Flex Shrink] + [Flex Basis] 0 1 auto
+    - align-self: auto      => default value
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    background-color: #EEE;
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-flex;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    /* Sets the flex grow factor. Negative numbers are invalid. */
+    flex-grow: 1;
+    /* Sets the flex shrink factor. Negative numbers are invalid. */
+    flex-shrink: 1;
+    /* Sets the flex basis. */
+    flex-basis: 100px;
+    /* Specifies the components of a flexible length: the flex grow factor and flex shrink factor, and the flex basis */
+    flex: 1 1 auto;
+
+
+}
+
+/* .in {
+    display: inline-block;
+} */

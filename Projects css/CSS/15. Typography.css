@@ -1,0 +1,69 @@
+/* 
+Font Family
+CSS Units
+    - px
+    - em    => Time
+    - rem   => Root Time        -> html
+    - vw    => View Port Width  -> screen
+    - perectangle
+
+Read
+    - vmin
+    - vh
+
+1em = 16px -> this is wrong
+Default Font size for web bage is 16px
+
+Font Style
+Font Variant
+Font Weight
+*/
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 40px;
+}
+
+.ffam {
+    /* Specifies a prioritized list of font family names or generic family names. */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .forem {
+    font-size: 20px;
+} */
+
+/* .forem span {
+    font-size: 2.2em;
+} */
+
+/* .forem span {
+    font-size: 2rem;
+} */
+
+/* .forem {
+    font-size: 5vw;
+} */
+
+.fstyle {
+    /* Allows italic or oblique faces to be selected. */
+    font-style: normal;
+    font-style: italic;
+}
+
+.fvar {
+    /* Specifies variant representations of the font */
+    font-variant: small-caps;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.fw {
+    font-family: 'Times New Roman', Times, serif;
+    /* Specifies weight of glyphs in the font, their degree of blackness or stroke thickness */
+    font-weight: bold;
+}

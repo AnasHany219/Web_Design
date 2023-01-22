@@ -1,0 +1,24 @@
+/* 
+Float
+Cleat
+*/
+.parent {
+    background-color: red;
+    padding: 10px;
+
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    /* Specifies how a box should be floated.  */
+    float: right;
+    float: left;
+}
+
+.clear {
+    /* Indicates which sides of an element's box(es) may not be adjacent to an earlier floating box. */
+    clear: both;
+}

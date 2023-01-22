@@ -1,0 +1,60 @@
+/* 
+Grid Child
+    - grid-column: [Grid Column Start] [Grid Column End]
+    - grid-row: [Grid row Start] [Grid row End]
+    - grid-area: [Grid row Start] [Grid Column Start] [Grid row End] [Grid Column End]
+    -
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #EEE;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* Specifies named grid areas, which are not associated with any particular grid item, but can be referenced from the grid-placement properties. */
+    /* grid-template-areas: 
+        "head head nav nav nav" 
+        "cont cont cont cont cont"
+        ""; */
+    gap: 10px;
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.one {
+    /* Shorthand for 'grid-column-start' and 'grid-column-end' . */
+    grid-column: span 4;
+    grid-column: 2 / span 3;
+}
+
+.three {
+    grid-column: span 4;
+}
+
+.four {
+    grid-row: span 2;
+}
+
+.parent .nine {
+    background-color: green;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    /* Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement. */
+    /* Shorthand for 'grid-row-start', 'grid-column-start', 'grid-row-end', and 'grid-column-end' . */
+    grid-area: 3 / 2 / 3 / 5;
+}

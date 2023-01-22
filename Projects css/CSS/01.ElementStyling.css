@@ -1,0 +1,10 @@
+/* Targert All Paragraph */
+p {
+    /* Sets the color of an element's text */
+    color: red;
+}
+
+/* Target The class spectial. */
+.special {
+    color: green;
+}
