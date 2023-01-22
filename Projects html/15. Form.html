@@ -1,0 +1,186 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Describtion" content="This is our Book Store">
+    <title>Book Store</title>
+</head>
+
+<body>
+    <div>
+        <h1>Book Store</h1>
+        <p>This is my <b>Book Store</b>, Welcome.</p>
+    </div>
+    <!-- The form element represents a collection of form-associated elements -->
+    <!-- action:- Send the data to the php page -->
+    <!-- The HTTP method that the browser uses to submit the form. Possible values. -->
+
+    <form action="" method="get" novalidate target="_blank">
+        <div>
+            <input type="hidden" value="Anoos">
+        </div>
+        <br>
+        <div>
+            <!-- The label element represents a caption in a user interface. -->
+            <label>User Name</label>
+            <!-- he input element represents a typed data field -->
+            <!-- required:- Must be written -->
+            <!-- placeholder:- Hint to user -->
+            <!-- autofocus:- send user to write in the input. -->
+            <input type="text" required placeholder="Enter User Name" name="UserName" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+            <!-- minlength:- must be at least 8 characters -->
+            <!-- maxlength:- must be at most 32 characters -->
+            <input type="password" required placeholder="Write A Complex Password" name="Pass" minlength="8"
+                maxlength="32">
+        </div>
+        <br>
+        <div>
+            <label for="cnt">Your Country</label>
+            <!-- The select element represents a control for selecting amongst a set of options. -->
+            <select name="cnt" id="cnt">
+                <!-- The optgroup element represents a group of option elements with a common label. -->
+                <!-- The option element represents an option in a select element or as part of a list of suggestions in a datalist element. -->
+                <optgroup label="Africa">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Tunisia">Tunisia</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="Iraq">Iraq</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" placeholder="Entet Subject" name="Subject">
+        </div>
+        <br>
+        <div>
+            <label>E-mail</label>
+            <input type="email" required placeholder="Write A Valid E-mail" name="Mail">
+        </div>
+        <br>
+        <div>
+            <label for="dt">BirthDay</label>
+            <input type="date" name="dt" id="dt">
+        </div>
+        <br>
+        <!-- the radios must have the same Name. -->
+        <!-- write the label after the input. -->
+        <!-- checked:- to choose this one -->
+        <div>
+            <input type="radio" id="win" name="OS" value="Windows" checked>
+            <label for="win">Windows</label>
+        </div>
+        <div>
+            <input type="radio" id="Lin" name="OS" value="Linux">
+            <label for="Lin">Linux</label>
+        </div>
+        <div>
+            <input type="radio" id="mac" name="OS" value="MAC">
+            <label for="mac">MAC</label>
+        </div>
+        <br>
+        <P>Your Programming Language</P>
+        <div>
+            <input type="checkbox" id="c++" name="PL" value="C++">
+            <label for="c++">C++</label>
+        </div>
+        <div>
+            <input type="checkbox" id="C#" name="PL" value="C#">
+            <label for="C#">C#</label>
+        </div>
+        <div>
+            <input type="checkbox" id="C" name="PL" value="C">
+            <label for="C">C</label>
+        </div>
+        <div>
+            <input type="checkbox" id="py" name="PL" value="Python">
+            <label for="py">Python</label>
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" required placeholder="Enter your range" step="2" value="0" name="range">
+        </div>
+        <br>
+        <div>
+            <label>Color</label>
+            <input type="color" required placeholder="Enter your color" name="color">
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" required placeholder="Enter your number" name="number" min="10" step="2" max="1000">
+        </div>
+        <br>
+        <div>
+            <label for="other"> Write What you need</label><br>
+            <textarea name="other" id="other" cols="30" rows="10" placeholder="Write Text">
+            </textarea>
+        </div>
+        <br>
+        <div>
+            <label for="ub">Upload</label>
+            <input type="file" name="ubload" id="ub">
+        </div>
+        <br>
+        <div>
+            <label for="srch">Search</label>
+            <input type="search" name="srch" id="srch">
+        </div>
+        <br>
+        <div>
+            <label for="url">Link</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <br>
+        <div>
+            <label>Month</label>
+            <input type="Month">
+        </div>
+        <br>
+        <div>
+            <label>Time</label>
+            <input type="Time">
+        </div>
+        <br>
+        <div>
+            <input list="Programming" name="porg">
+            <datalist id="Programming">
+                <option value="C">
+                <option value="C#">
+                <option value="C++">
+                <option value="Python">
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label>Onwer</label>
+            <!-- readonly:- you cannot change, but you can copy it. -->
+            <input type="text" name="Owner" value="Anoos" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Owner E-mail</label>
+            <!-- disabled:- you cannot change, you can copy, but it doesnot send. -->
+            <input type="email" name="Owner-Mail" value="Anoos@gamil.com" disabled>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset">
+            <input type="submit" value="Save">
+        </div>
+    </form>
+</body>
+
+</html>
